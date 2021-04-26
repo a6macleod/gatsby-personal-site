@@ -1,29 +1,29 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from 'react';
+import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from '../components/layout';
+import Seo from '../components/seo';
+import Projects from '../components/projects';
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/circle-headshot-2020.png"
       width={300}
       quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
+      formats={['AUTO', 'WEBP', 'AVIF']}
+      alt="Andrew MacLeod"
     />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <p>I am Andrew MacLeod.</p>
+    <p>I'm here to build blazing fast websites for you!</p>
+    <p>I'm a front-end developer from Kalamazoo Michigan.</p>
+    <div className="contact-button">
+      <Link to="/contact">Contact Me!</Link>
+    </div>
+    <Projects />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
