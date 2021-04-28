@@ -6412,6 +6412,14 @@
     "node-fetch" "^2.6.1"
     "uuid" "3.4.0"
 
+"gatsby-transformer-json@^3.3.0":
+  "integrity" "sha512-JvOL8v50cqRwB32yhS7TJRDZP5R89YgZnvjftU2L9itryDE1RDj4xZLRz9U1zyaAJKxbzThsc4emvcEAtJ8sFQ=="
+  "resolved" "https://registry.npmjs.org/gatsby-transformer-json/-/gatsby-transformer-json-3.3.0.tgz"
+  "version" "3.3.0"
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "bluebird" "^3.7.2"
+
 "gatsby-transformer-sharp@^3.2.0":
   "integrity" "sha512-2UmkLMCuYCskuyyEqHIPfNg1svgtNxCWWCCfEnAIIhntWfX7mewdhSG7eBciFJep+CYfV6bGZLcb+sKYkb0jvg=="
   "resolved" "https://registry.npmjs.org/gatsby-transformer-sharp/-/gatsby-transformer-sharp-3.2.0.tgz"
@@ -6426,7 +6434,7 @@
     "semver" "^7.3.4"
     "sharp" "^0.27.0"
 
-"gatsby@^3.3.1":
+"gatsby@^3.0.0-next.0", "gatsby@^3.3.1":
   "integrity" "sha512-Eprejb4317ZYFZXYdXErYGcOZuscXIln5v0JTPFbXtejrM+MMr7qa3GF8NztyOH3alpqAMXm6LyHDMf9oQpLSA=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-3.3.1.tgz"
   "version" "3.3.1"

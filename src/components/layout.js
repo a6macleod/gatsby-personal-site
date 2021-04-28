@@ -1,9 +1,11 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
+import Projects from './projects';
 
 import Header from './header';
 import './layout.css';
+import GlobalStyles from '../styles/GlobalStyles';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -13,14 +15,29 @@ const Layout = ({ children }) => {
           title
         }
       }
+      allProjectDataJson {
+        edges {
+          node {
+            title
+            goal
+            link
+            tech
+            code
+            id
+          }
+        }
+      }
     }
   `);
 
   return (
     <>
+      <GlobalStyles />
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
         <main>{children}</main>
+        {/* {console.log(data.allProjectDataJson.edges[0].node.title)} */}
+        <Projects projectData={data.allProjectDataJson.edges} />
         <footer>
           © {new Date().getFullYear()}, Built by
           {` `}

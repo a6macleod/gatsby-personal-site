@@ -1,10 +1,18 @@
 module.exports = {
   siteMetadata: {
     title: `Andrew MacLeod`,
-    description: `Andrew Macleod\'s personal website showcasing the websites that he\'s made`,
+    description: `Andrew Macleod's personal website showcasing the websites that he's made`,
     author: `Andrew MacLeod`,
   },
   plugins: [
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
+        typeName: `Json`, // a fixed string
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -22,10 +30,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#2E2E2E`,
+        theme_color: `#2E2E2E`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,
