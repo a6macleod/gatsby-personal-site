@@ -13,6 +13,8 @@ const GlobalStyles = createGlobalStyle`
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
     color: hsl(0, 20%, 15%);
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   body::-webkit-scrollbar {

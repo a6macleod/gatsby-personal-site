@@ -1,7 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import Projects from './projects';
 
 import Header from './header';
 import './layout.css';
@@ -36,8 +35,6 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
         <main>{children}</main>
-        {/* {console.log(data.allProjectDataJson.edges[0].node.title)} */}
-        <Projects projectData={data.allProjectDataJson.edges} />
         <footer>
           © {new Date().getFullYear()}, Built by
           {` `}
