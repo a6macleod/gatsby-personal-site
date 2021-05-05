@@ -16,12 +16,12 @@ const HomeStyles = styled.div`
   .contact-me {
     display: inline-block;
     background-color: hsl(215, 90%, 65%);
-    margin: 0 auto;
     padding: 5px 10px;
     border-radius: 5px;
-    a {
-      color: #fff;
-    }
+    color: #fff;
+  }
+  .contact-me:hover {
+    background-color: hsl(215, 90%, 45%);
   }
 `;
 
@@ -40,9 +40,9 @@ const IndexPage = () => (
         <p>I am Andrew MacLeod.</p>
         <p>I'm here to build blazing fast websites for you!</p>
         <p>I'm a front-end developer from Kalamazoo Michigan.</p>
-        <div className="contact-me">
-          <Link to="/contact">Contact Me!</Link>
-        </div>
+        <Link to="/contact">
+          <div className="contact-me">Contact Me!</div>
+        </Link>
       </div>
     </HomeStyles>
     {/* Project showcase below */}

@@ -7,8 +7,12 @@
       "I used mostly Javascript and React and the site is hosted on Github Pages.",
     "link": "https://a6macleod.github.io/react_shopping_cart/",
     "code": "https://github.com/a6macleod/react_shopping_cart",
-    "imgAlt":
+    "image": {
+      "src": "./dataImages/brick-wall.jpg",
+      "imgAlt":
       "Screenshot of fictional brick walls for sale from the Shopping Cart project"
+    }
+
   },
   {
     "title": "Memory Game Project",
@@ -18,8 +22,11 @@
       "The tech used was mostly Javascript and React and the site is hosted on Github Pages.",
     "link": "https://a6macleod.github.io/memory-game/",
     "code": "https://github.com/a6macleod/memory-game",
-    "imgAlt":
+    "image": {
+      "src": "./dataImages/memory.jpg",
+      "imgAlt":
       "Screenshot of the memory game the images are of various small metal gears."
+    }
   },
   {
     "title": "Responsive Design Project",
@@ -29,7 +36,10 @@
       "The tech used was just HTML and CSS. The site is hosted on Github Pages.",
     "link": "https://a6macleod.github.io/responsive-design/#",
     "code": "https://github.com/a6macleod/responsive-design",
-    "imgAlt":
+    "image": {
+      "src": "./dataImages/responsive.jpg",
+      "imgAlt":
       "Screenshot of the responsive design project that duplicated The Next Webs website."
+    }
   }
 ]
