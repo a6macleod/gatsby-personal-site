@@ -8,15 +8,16 @@ import GlobalStyles from '../styles/GlobalStyles';
 
 const LayoutStles = styled.div`
   position: relative;
-  min-height: 100vh;
+  min-height: calc(100vh - 150px);
   overflow: hidden;
-  padding-bottom: 1000px;
+  padding-bottom: 100px;
 `;
 
 const FooterStyles = styled.footer`
   position: absolute;
   bottom: 0px;
   left: 45%;
+  padding-bottom: 40px;
 `;
 
 const Layout = ({ children }) => {
@@ -47,12 +48,14 @@ const Layout = ({ children }) => {
       <GlobalStyles />
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <LayoutStles>
-        <main>{children}</main>
-        <FooterStyles>
-          © {new Date().getFullYear()}, Built by
-          {` `}
-          <a href="https://github.com/a6macleod">Andrew</a>
-        </FooterStyles>
+        <main>
+          {children}
+          <FooterStyles>
+            © {new Date().getFullYear()}, Built by
+            {` `}
+            <a href="https://github.com/a6macleod">Andrew</a>
+          </FooterStyles>
+        </main>
       </LayoutStles>
     </>
   );
