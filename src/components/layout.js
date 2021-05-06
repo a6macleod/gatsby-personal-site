@@ -16,7 +16,7 @@ const LayoutStles = styled.div`
 const FooterStyles = styled.footer`
   position: absolute;
   bottom: 0px;
-  left: 45%;
+  left: 42%;
   padding-bottom: 40px;
 `;
 

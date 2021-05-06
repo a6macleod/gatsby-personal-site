@@ -13,16 +13,6 @@ const HomeStyles = styled.div`
   align-items: center;
   padding: 40px;
   gap: 40px;
-  .contact-me {
-    display: inline-block;
-    background-color: hsl(215, 90%, 65%);
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: #fff;
-  }
-  .contact-me:hover {
-    background-color: hsl(215, 90%, 45%);
-  }
 `;
 
 const IndexPage = () => (
@@ -40,9 +30,9 @@ const IndexPage = () => (
         <p>I am Andrew MacLeod.</p>
         <p>I'm here to build blazing fast websites for you!</p>
         <p>I'm a front-end developer from Kalamazoo Michigan.</p>
-        <Link to="/contact">
-          <div className="contact-me">Contact Me!</div>
-        </Link>
+        <div className="primaryButton">
+          <Link to="/contact">Contact Me!</Link>
+        </div>
       </div>
     </HomeStyles>
     {/* Project showcase below */}

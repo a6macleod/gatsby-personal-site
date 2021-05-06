@@ -49,6 +49,22 @@ const GlobalStyles = createGlobalStyle`
   a:hover {
     cursor: pointer;
   }
+
+  .primaryButton {
+    border: solid 1px hsl(215, 90%, 45%);
+    display: inline-block;
+    background-color: hsl(215, 90%, 65%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+  .primaryButton:hover {
+    background-color: hsl(215, 90%, 45%);
+  }
+
 `;
 
 export default GlobalStyles;

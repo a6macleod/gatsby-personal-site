@@ -1,13 +1,27 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-
+import styled from 'styled-components';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
+
+const ContactStyles = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  label span {
+    display: block;
+  }
+  input,
+  textarea {
+    width: 300px;
+  }
+`;
 
 const Contact = () => (
   <Layout>
     <Seo title="Contact page" />
-    <div className="contact">
+    <ContactStyles className="contact">
       <div className="formContainer">
         <form name="contactForm" method="POST" data-netlify-recaptcha="true" data-netlify="true">
           <input type="hidden" name="form-name" value="contactForm" />
@@ -31,13 +45,13 @@ const Contact = () => (
           </p>
           <div data-netlify-recaptcha="true" />
           <div className="formContactButtonContainer">
-            <button className="contactButton formContactButton" type="submit">
+            <button className="contactButton formContactButton primaryButton" type="submit">
               Send
             </button>
           </div>
         </form>
       </div>
-    </div>
+    </ContactStyles>
   </Layout>
 );
 
