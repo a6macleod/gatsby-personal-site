@@ -18,6 +18,18 @@ const FooterStyles = styled.footer`
   bottom: 0px;
   left: 42%;
   padding-bottom: 40px;
+  @media (max-width: 1080px) {
+    left: 40%;
+  }
+  @media (max-width: 900px) {
+    left: 38%;
+  }
+  @media (max-width: 700px) {
+    left: 35%;
+  }
+  @media (max-width: 500px) {
+    left: 30%;
+  }
 `;
 
 const Layout = ({ children }) => {

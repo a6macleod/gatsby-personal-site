@@ -16,6 +16,12 @@ const ContactStyles = styled.div`
   textarea {
     width: 300px;
   }
+  @media (max-width: 400px) {
+    input,
+    textarea {
+      width: 250px;
+    }
+  }
 `;
 
 const Contact = () => (

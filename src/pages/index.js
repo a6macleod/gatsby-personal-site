@@ -13,6 +13,33 @@ const HomeStyles = styled.div`
   align-items: center;
   padding: 40px;
   gap: 40px;
+  @media (max-width: 1000px) {
+    font-size: 0.9rem;
+    gap: 30px;
+    padding-top: 30px;
+    img {
+      width: 250px;
+    }
+  }
+  @media (max-width: 800px) {
+    font-size: 0.8rem;
+    gap: 15px;
+    padding-top: 0;
+    img {
+      width: 200px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width: 600px) {
+    flex-direction: column;
+    font-size: 0.8rem;
+    gap: 10px;
+    img {
+      width: 200px;
+    }
+  }
 `;
 
 const IndexPage = () => (
