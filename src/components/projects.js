@@ -5,9 +5,6 @@ import styled from 'styled-components';
 
 const AllProjectStyles = styled.div`
   margin: 20px;
-  h2 {
-    /* margin-left: 20px; */
-  }
 `;
 
 const ProjectStyles = styled.div`
@@ -28,6 +25,32 @@ const ProjectStyles = styled.div`
     }
     a:hover {
       text-decoration: underline;
+    }
+  }
+  @media (max-width: 1000px) {
+    font-size: 0.9rem;
+    p {
+      margin-bottom: 15px;
+    }
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    p {
+      margin-bottom: 10px;
+    }
+    .projectInfo {
+      order: -1;
+      width: 100%;
+    }
+    .imgContainer {
+      margin: 0 auto;
+      width: 70%;
+    }
+    @media (max-width: 600px) {
+      font-size: 0.8rem;
+      .imgContainer {
+        width: 95%;
+      }
     }
   }
 `;
