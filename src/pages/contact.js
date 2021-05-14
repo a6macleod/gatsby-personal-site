@@ -28,14 +28,7 @@ const Contact = () => (
     <Seo title="Contact page" />
     <ContactStyles className="contact">
       <div className="formContainer">
-        <form
-          name="contactForm"
-          method="POST"
-          data-netlify-recaptcha="true"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
-        >
-          <input type="hidden" name="bot-field" />
+        <form name="contactForm" method="POST" data-netlify="true">
           <input type="hidden" name="form-name" value="contactForm" />
           <p className="formInput">
             <label htmlFor="name">
