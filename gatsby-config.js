@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `Json`, // a fixed string
         path: `${__dirname}/src/data/`,
-        typeName: `Json`, // a fixed string
       },
     },
     `gatsby-plugin-react-helmet`,
