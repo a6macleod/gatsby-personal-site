@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
@@ -29,8 +28,14 @@ const Contact = () => (
     <Seo title="Contact page" />
     <ContactStyles className="contact">
       <div className="formContainer">
-        <form name="contactForm" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-          <input type="hidden" name="form-name" value="contactForm" />
+        <form
+          name="contactForm"
+          method="POST"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="bot-field" value="contactForm" />
           <p className="formInput">
             <label htmlFor="name">
               <span>Name</span>
