@@ -5,6 +5,7 @@ module.exports = {
     author: `Andrew MacLeod`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
