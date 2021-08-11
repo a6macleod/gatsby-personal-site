@@ -1,10 +1,10 @@
-import * as React from 'react';
-import { graphql, Link, StaticQuery } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
-import styled from 'styled-components';
-import Layout from '../components/layout';
-import Seo from '../components/seo';
-import Projects from '../components/projects';
+import * as React from 'react'
+import { graphql, Link, StaticQuery } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
+import styled from 'styled-components'
+import Layout from '../components/layout'
+import Seo from '../components/seo'
+import Projects from '../components/projects'
 
 const HomeStyles = styled.div`
   width: 100%;
@@ -40,7 +40,7 @@ const HomeStyles = styled.div`
       width: 200px;
     }
   }
-`;
+`
 
 const IndexPage = () => (
   <Layout>
@@ -55,8 +55,9 @@ const IndexPage = () => (
       />
       <div className="about">
         <p>I am Andrew MacLeod.</p>
-        <p>I'm here to build blazing fast websites for you!</p>
-        <p>I'm a front-end developer from Kalamazoo Michigan.</p>
+        <p>I'm from Kalamazoo Michigan.</p>
+        <p>I interested in being a web developer or a software developer.</p>
+        <p>Send me a message to get in touch!</p>
         <div className="primaryButton">
           <Link to="/contact">Contact Me!</Link>
         </div>
@@ -65,6 +66,6 @@ const IndexPage = () => (
     {/* Project showcase below */}
     <Projects />
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage

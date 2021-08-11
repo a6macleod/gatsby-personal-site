@@ -1,7 +1,7 @@
-import * as React from 'react';
-import styled from 'styled-components';
-import Layout from '../components/layout';
-import Seo from '../components/seo';
+import * as React from 'react'
+import styled from 'styled-components'
+import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 const ContactStyles = styled.div`
   display: flex;
@@ -21,7 +21,7 @@ const ContactStyles = styled.div`
       width: 250px;
     }
   }
-`;
+`
 
 const Contact = () => (
   <Layout>
@@ -58,6 +58,6 @@ const Contact = () => (
       </div>
     </ContactStyles>
   </Layout>
-);
+)
 
-export default Contact;
+export default Contact
