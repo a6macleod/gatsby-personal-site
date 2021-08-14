@@ -95,5 +95,19 @@
       "imgAlt":
       "Treat Factory"
     }
+  },
+  {
+    "title": "To Do",
+    "goal":
+      "Create a To Do application using vanilla JavaScript and webpack without any frameworks.",
+    "tech":
+      "Vanilla JavaScript, webpack, HTML, CSS",
+    "link": "https://a6macleod.github.io/js_todo/",
+    "code": "https://github.com/a6macleod/js_todo",
+    "image": {
+      "src": "./dataImages/to-do.jpg",
+      "imgAlt":
+      "To Do application"
+    }
   }
 ]
