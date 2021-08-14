@@ -10,9 +10,8 @@
     "image": {
       "src": "./dataImages/brick-wall.jpg",
       "imgAlt":
-      "Screenshot of fictional brick walls for sale from the Shopping Cart project"
+      "Fictional brick walls for sale from the Shopping Cart project"
     }
-
   },
   {
     "title": "Memory Game Project",
@@ -25,7 +24,7 @@
     "image": {
       "src": "./dataImages/memory.jpg",
       "imgAlt":
-      "Screenshot of the memory game the images are of various small metal gears."
+      "Memory game where the images are of various small metal gears."
     }
   },
   {
@@ -39,7 +38,62 @@
     "image": {
       "src": "./dataImages/responsive.jpg",
       "imgAlt":
-      "Screenshot of the responsive design project that duplicated The Next Webs website."
+      "Responsive design project that duplicated The Next Webs website."
+    }
+  },
+  {
+    "title": "Etch-a-Sketch",
+    "goal":
+      "The goal of this project was to practice using vanilla JavaScript. The etch-a-sketch uses JavaScript to create a grid of Divs. There are two color schemes and the board can be resized.",
+    "tech":
+      "Vanilla JavaScript, HTML, CSS",
+    "link": "https://a6macleod.github.io/etch-a-sketch/",
+    "code": "https://github.com/a6macleod/etch-a-sketch",
+    "image": {
+      "src": "./dataImages/etch-a-sketch.jpg",
+      "imgAlt":
+      "Etch-a-sketch game"
+    }
+  },{
+    "title": "Image Slider",
+    "goal":
+      "Use vanilla JavaScript and make a image slider.",
+    "tech":
+      "Vanilla JavaScript, Webpack, CSS",
+    "link": "https://a6macleod.github.io/js_image_slider/",
+    "code": "https://github.com/a6macleod/js_image_slider",
+    "image": {
+      "src": "./dataImages/img-slider.jpg",
+      "imgAlt":
+      "Image Slider"
+    }
+  },
+  {
+    "title": "JavaScript Calculator",
+    "goal":
+      "Create a calculator using vanilla JavaScript.",
+    "tech":
+      "Vanilla JavaScript, HTML, CSS",
+    "link": "https://a6macleod.github.io/JavaScriptCalculator/",
+    "code": "https://github.com/a6macleod/JavaScriptCalculator",
+    "image": {
+      "src": "./dataImages/js-calculator.jpg",
+      "imgAlt":
+      "Calculator"
+    }
+  },
+  {
+    "title": "Restaurant",
+    "goal":
+      "Create a restaurant website using vanilla JavaScript and webpack.",
+    "tech":
+      "Vanilla JavaScript, webpack, HTML, CSS",
+    "link": "https://a6macleod.github.io/js_restaurant/",
+    "code": "https://github.com/a6macleod/js_restaurant",
+    "image": {
+      "src": "./dataImages/restaurant.jpg",
+      "imgAlt":
+      "Treat Factory"
     }
   }
 ]
