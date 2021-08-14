@@ -55,8 +55,7 @@ const IndexPage = () => (
       />
       <div className="about">
         <p>I am Andrew MacLeod.</p>
-        <p>I'm from Kalamazoo Michigan.</p>
-        <p>I interested in being a web developer or a software developer.</p>
+        <p>I am a web developer from Kalamazoo Michigan.</p>
         <p>Send me a message to get in touch!</p>
         <div className="primaryButton">
           <Link to="/contact">Contact Me!</Link>
