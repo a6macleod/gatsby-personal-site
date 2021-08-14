@@ -57,7 +57,7 @@
   },{
     "title": "Image Slider",
     "goal":
-      "Use vanilla JavaScript and make a image slider.",
+      "This project wass to create an image slider using only vanilla JavaScript.",
     "tech":
       "Vanilla JavaScript, Webpack, CSS",
     "link": "https://a6macleod.github.io/js_image_slider/",
@@ -71,7 +71,7 @@
   {
     "title": "JavaScript Calculator",
     "goal":
-      "Create a calculator using vanilla JavaScript.",
+      "The goal of this project was to create a calculator using vanilla JavaScript.",
     "tech":
       "Vanilla JavaScript, HTML, CSS",
     "link": "https://a6macleod.github.io/JavaScriptCalculator/",
@@ -85,7 +85,7 @@
   {
     "title": "Restaurant",
     "goal":
-      "Create a restaurant website using vanilla JavaScript and webpack.",
+      "This project created a restaurant website using vanilla JavaScript and webpack.",
     "tech":
       "Vanilla JavaScript, webpack, HTML, CSS",
     "link": "https://a6macleod.github.io/js_restaurant/",
@@ -99,7 +99,7 @@
   {
     "title": "To Do",
     "goal":
-      "Create a To Do application using vanilla JavaScript and webpack without any frameworks.",
+      "The goal of this project was to create a To Do application using vanilla JavaScript and webpack without any frameworks.",
     "tech":
       "Vanilla JavaScript, webpack, HTML, CSS",
     "link": "https://a6macleod.github.io/js_todo/",
