@@ -1,5 +1,19 @@
 [
   {
+    "title": "The Pizza Place",
+    "goal":
+      "This was a fun little project to practice setting up a simple Gatsby site. The data is hard coded in to keep it simple.",
+    "tech":
+      "This was built using Gatsby and React under the hood. The components are styled using Styled Components and the site is hosted on Github Pages.",
+    "link": "https://a6macleod.github.io/gatsby-pizza-place/",
+    "code": "https://github.com/a6macleod/gatsby-pizza-place",
+    "image": {
+      "src": "./dataImages/pizza-place.jpg",
+      "imgAlt":
+      "A simple pizza restaurant page"
+    }
+  },
+  {
     "title": "Shopping Cart Project",
     "goal":
       "The goal of this project was some fun practice to create a shopping cart using React. The site includes a splash page, a shopping page, a checkout page, and a dynamically created page for each of the store items.",
