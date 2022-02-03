@@ -54,15 +54,14 @@ const IndexPage = () => (
         alt="Andrew MacLeod"
       />
       <div className="about">
-        <p>I am Andrew MacLeod.</p>
-        <p>I am a web developer from Kalamazoo Michigan.</p>
+        <p>I am Andrew MacLeod, a web developer out of Kalamazoo, Michigan.</p>
         <p>Send me a message to get in touch!</p>
         <div className="primaryButton">
           <Link to="/contact">Contact Me!</Link>
         </div>
       </div>
     </HomeStyles>
-    {/* Project showcase below */}
+    {/* Project showcase */}
     <Projects />
   </Layout>
 )
