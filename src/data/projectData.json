@@ -1,38 +1,10 @@
 [
   {
-    "title": "The Pizza Place",
-    "goal":
-      "This was a fun little project to practice setting up a simple Gatsby site. The data is hard coded in to keep it simple.",
-    "tech":
-      "This was built using Gatsby and React under the hood. The components are styled using Styled Components and the site is hosted on Github Pages.",
-    "link": "https://a6macleod.github.io/gatsby-pizza-place/",
-    "code": "https://github.com/a6macleod/gatsby-pizza-place",
-    "image": {
-      "src": "./dataImages/pizza-place.jpg",
-      "imgAlt":
-      "A simple pizza restaurant page"
-    }
-  },
-  {
-    "title": "Shopping Cart Project",
-    "goal":
-      "The goal of this project was some fun practice to create a shopping cart using React. The site includes a splash page, a shopping page, a checkout page, and a dynamically created page for each of the store items.",
-    "tech":
-      "I used mostly Javascript and React and the site is hosted on Github Pages.",
-    "link": "https://a6macleod.github.io/react_shopping_cart/",
-    "code": "https://github.com/a6macleod/react_shopping_cart",
-    "image": {
-      "src": "./dataImages/brick-wall.jpg",
-      "imgAlt":
-      "Fictional brick walls for sale from the Shopping Cart project"
-    }
-  },
-  {
     "title": "Memory Game Project",
     "goal":
-      "This project was to create a memory game using React. The images all change position each time one is clicked. Your score is tracked and if you click the same image twice, the score resets and your top score is recorded.",
+      "This project is memory game where the images change position each time one is clicked. Each click adds to your score but if you click the same image twice the score resets and your top score is recorded.",
     "tech":
-      "The tech used was mostly Javascript and React and the site is hosted on Github Pages.",
+      "This project was built with React and the site is hosted on Github Pages.",
     "link": "https://a6macleod.github.io/memory-game/",
     "code": "https://github.com/a6macleod/memory-game",
     "image": {
@@ -44,23 +16,23 @@
   {
     "title": "Responsive Design Project",
     "goal":
-      "The goal of this project was to create a duplicate of TheNextWeb.com and replicate their responsive design. This was great practice making elements disapear, re-arrange, and introduce new elements at a smaller window size such as a hamburger menu. ",
+      "The goal of this project was to create a duplicate of TheNextWeb.com to replicate their responsive design. This was great practice making elements disapear, re-arrange, and introduce new elements at a smaller window size such as the hamburger menu. ",
     "tech":
-      "The tech used was just HTML and CSS. The site is hosted on Github Pages.",
+      "This was built with just HTML and CSS. The site is hosted on Github Pages.",
     "link": "https://a6macleod.github.io/responsive-design/#",
     "code": "https://github.com/a6macleod/responsive-design",
     "image": {
       "src": "./dataImages/responsive.jpg",
       "imgAlt":
-      "Responsive design project that duplicated The Next Webs website."
+      "Responsive design project"
     }
   },
   {
     "title": "Etch-a-Sketch",
     "goal":
-      "The goal of this project was to practice using vanilla JavaScript. The etch-a-sketch uses JavaScript to create a grid of Divs. There are two color schemes and the board can be resized.",
+      "This etch-a-sketch has two color themes and the number of grids within the frame can be resized. ",
     "tech":
-      "Vanilla JavaScript, HTML, CSS",
+      "This was built with JavaScript, HTML, CSS",
     "link": "https://a6macleod.github.io/etch-a-sketch/",
     "code": "https://github.com/a6macleod/etch-a-sketch",
     "image": {
@@ -71,9 +43,9 @@
   },{
     "title": "Image Slider",
     "goal":
-      "This project wass to create an image slider using only vanilla JavaScript.",
+      "This image slider was built to change pictures on a timer or you can click the arrow to change picture or on the dot to jump to a specific image.",
     "tech":
-      "Vanilla JavaScript, Webpack, CSS",
+      "This was built using JavaScript, Webpack, CSS",
     "link": "https://a6macleod.github.io/js_image_slider/",
     "code": "https://github.com/a6macleod/js_image_slider",
     "image": {
@@ -85,9 +57,9 @@
   {
     "title": "JavaScript Calculator",
     "goal":
-      "The goal of this project was to create a calculator using vanilla JavaScript.",
+      "A calculator for simple calculations.",
     "tech":
-      "Vanilla JavaScript, HTML, CSS",
+      "JavaScript, HTML, CSS",
     "link": "https://a6macleod.github.io/JavaScriptCalculator/",
     "code": "https://github.com/a6macleod/JavaScriptCalculator",
     "image": {
@@ -97,31 +69,17 @@
     }
   },
   {
-    "title": "Restaurant",
+    "title": "Shopping Cart Project",
     "goal":
-      "This project created a restaurant website using vanilla JavaScript and webpack.",
+      "This site includes a splash page, a products page, a checkout page, and a dynamically created page for each of the store items.",
     "tech":
-      "Vanilla JavaScript, webpack, HTML, CSS",
-    "link": "https://a6macleod.github.io/js_restaurant/",
-    "code": "https://github.com/a6macleod/js_restaurant",
+      "This was built with React and the site is hosted on Github Pages.",
+    "link": "https://a6macleod.github.io/react_shopping_cart/",
+    "code": "https://github.com/a6macleod/react_shopping_cart",
     "image": {
-      "src": "./dataImages/restaurant.jpg",
+      "src": "./dataImages/brick-wall.jpg",
       "imgAlt":
-      "Treat Factory"
-    }
-  },
-  {
-    "title": "To Do",
-    "goal":
-      "The goal of this project was to create a To Do application using vanilla JavaScript and webpack without any frameworks.",
-    "tech":
-      "Vanilla JavaScript, webpack, HTML, CSS",
-    "link": "https://a6macleod.github.io/js_todo/",
-    "code": "https://github.com/a6macleod/js_todo",
-    "image": {
-      "src": "./dataImages/to-do.jpg",
-      "imgAlt":
-      "To Do application"
+      "Fictional brick walls for sale from the Shopping Cart project"
     }
   }
 ]
