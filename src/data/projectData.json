@@ -28,47 +28,6 @@
     }
   },
   {
-    "title": "Etch-a-Sketch",
-    "goal":
-      "This etch-a-sketch has two color themes and the number of grids within the frame can be resized. ",
-    "tech":
-      "This was built with JavaScript, HTML, CSS",
-    "link": "https://a6macleod.github.io/etch-a-sketch/",
-    "code": "https://github.com/a6macleod/etch-a-sketch",
-    "image": {
-      "src": "./dataImages/etch-a-sketch.jpg",
-      "imgAlt":
-      "Etch-a-sketch game"
-    }
-  },{
-    "title": "Image Slider",
-    "goal":
-      "This image slider was built to change pictures on a timer or you can click the arrow to change picture or on the dot to jump to a specific image.",
-    "tech":
-      "This was built using JavaScript, Webpack, CSS",
-    "link": "https://a6macleod.github.io/js_image_slider/",
-    "code": "https://github.com/a6macleod/js_image_slider",
-    "image": {
-      "src": "./dataImages/img-slider.jpg",
-      "imgAlt":
-      "Image Slider"
-    }
-  },
-  {
-    "title": "JavaScript Calculator",
-    "goal":
-      "A calculator for simple calculations.",
-    "tech":
-      "JavaScript, HTML, CSS",
-    "link": "https://a6macleod.github.io/JavaScriptCalculator/",
-    "code": "https://github.com/a6macleod/JavaScriptCalculator",
-    "image": {
-      "src": "./dataImages/js-calculator.jpg",
-      "imgAlt":
-      "Calculator"
-    }
-  },
-  {
     "title": "Shopping Cart Project",
     "goal":
       "This site includes a splash page, a products page, a checkout page, and a dynamically created page for each of the store items.",
